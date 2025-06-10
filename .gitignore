@@ -1,0 +1,31 @@
+# Haskell/Cabal build artifacts
+dist-newstyle/
+dist/
+cabal.project.local
+*.cba
+
+# GHC build products
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Stack build artifacts
+.stack-work/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific
+.vscode/
+.idea/
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace 
